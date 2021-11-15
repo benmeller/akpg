@@ -21,8 +21,6 @@
 		1635D1AF27409B370099DD00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1635D1B127409B3B0099DD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1635D1B427409B3B0099DD00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1635D1BE27409B8B0099DD00 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		16CAB9742740C8A700A2402D /* Drone.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Drone.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +39,6 @@
 		1635D1A127409B370099DD00 = {
 			isa = PBXGroup;
 			children = (
-				16CAB9742740C8A700A2402D /* Drone.playground */,
-				1635D1BE27409B8B0099DD00 /* MyPlayground.playground */,
 				1635D1AC27409B370099DD00 /* akpg */,
 				1635D1AB27409B370099DD00 /* Products */,
 			);
