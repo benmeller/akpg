@@ -13,16 +13,17 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         // .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.3.0"),
         .package(url: "https://github.com/AudioKit/SoundpipeAudioKit.git", from: "5.0.0"),
+        .package(url: "https://github.com/AudioKit/DunneAudioKit", from: "5.2.2"),
         .package(url: "https://github.com/AudioKit/AudioKit.git", from: "5.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .executableTarget(
-            name: "swift-cli",
-            dependencies: ["SoundpipeAudioKit", "AudioKit"]),
-        .testTarget(
-            name: "swift-cliTests",
-            dependencies: ["swift-cli"]),
+            name: "synth",
+            dependencies: ["SoundpipeAudioKit", "AudioKit", "DunneAudioKit"]),
+        // .testTarget(
+        //     name: "swift-cliTests",
+        //     dependencies: ["swift-cli"]),
     ]
 )

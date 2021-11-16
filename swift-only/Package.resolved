@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "DunneAudioKit",
+        "repositoryURL": "https://github.com/AudioKit/DunneAudioKit",
+        "state": {
+          "branch": null,
+          "revision": "ae73e34c16d33bfd7a91b0906a72fb7473487690",
+          "version": "5.2.2"
+        }
+      },
+      {
         "package": "KissFFT",
         "repositoryURL": "https://github.com/AudioKit/KissFFT",
         "state": {
