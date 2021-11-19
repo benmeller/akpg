@@ -1,14 +1,15 @@
 import Foundation
 import AudioKit
 import SoundpipeAudioKit
+import DunneAudioKit
 
-print("Hello, world!")
 
-var drone = DroneContext(polyphony: 3)
+var drone = DroneContext()
 drone.start()
+print("Hello, world!")
 while true {
     drone.noteOn(note: 64 as MIDINoteNumber)
     usleep(2000000)
-    drone.noteOff()
+    drone.noteOff(note: 64 as MIDINoteNumber)
     usleep(2000000)
 }
